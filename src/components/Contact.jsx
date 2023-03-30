@@ -64,12 +64,10 @@ const Contact = () => {
   };
 
   return (
-    <div
-      className={`flex flex-wrap gap-7`}
-    >
+    <>
       <div
         variants={slideIn("down", "tween", 0.2, 1)}
-        className='bg-black-100 p-10 rounded-2xl w-[390px] md:w-[560px] w-full '
+        className='bg-black-100 p-5 lg:p-10 rounded-2xl w-full  sm:p-6 w-[270px] xs:w-[370px] sm:w-[390px] md:w-[470px] lg:w-[560px]'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
@@ -119,12 +117,8 @@ const Contact = () => {
         </form>
       </div>
 
-      <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
-      >
-      </motion.div>
-    </div>
+
+    </>
   );
 };
 

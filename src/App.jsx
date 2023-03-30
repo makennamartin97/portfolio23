@@ -16,7 +16,7 @@ const App = () => {
         <Experience />
         <Projects />
         
-        <div className='relative z-0 bg-hero-pattern bg-cover bg-no-repeat bg-top bg-o flex flex-col '>
+        <div className='relative z-0 bg-hero-pattern bg-cover bg-no-repeat bg-top bg-o flex flex-col py-6 justify-center'>
           <Contact />
           {/* <StarsCanvas /> */}
         </div>

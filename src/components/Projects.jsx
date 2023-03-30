@@ -17,14 +17,14 @@ const ProjectCard = ({
   deploy_link
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className='flex flex-row justify-center'>
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className='flex flex-row justify-center xs:mx-10 lg:mx-0'>
       <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl w-[360px] lg:w-[280px] xl:w-[320px]'
+        className='bg-tertiary p-5 rounded-2xl w-auto xs:mx-18  lg:w-[280px] xl:w-[320px]'
       >
         <div className='relative h-[230px]'>
           <img
@@ -59,7 +59,7 @@ const ProjectCard = ({
         </div>
 
         <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
+          <h3 className='text-white font-bold md:text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
 
