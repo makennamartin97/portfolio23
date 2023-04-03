@@ -216,7 +216,7 @@ const projects = [
   {
     name: "Whale Trail",
     description:
-      "Interactive 3D force network graph displaying connections between the largest crypto wallets and whale communities.",
+      "Interactive 3D force network graph enabling crypto traders to gain insight and view connections between the largest crypto wallets and whale communities.",
     tags: [
       {
         name: "react",
