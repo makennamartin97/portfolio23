@@ -194,7 +194,7 @@ const projects = [
   {
     name: "Cleo Canna Club",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web3 staking game for a Los Angeles-based company allowing customers to earn cryptocurrency, discounts, and rewards by scanning QR codes from products purchased in store and leveling up their NFT’s. The application features an e-commerce store and an NFT leaderboard receiving data from the smart contract with Moralis SDK.",
     tags: [
       {
         name: "react",
@@ -216,7 +216,7 @@ const projects = [
   {
     name: "Whale Trail",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Interactive 3D force network graph displaying connections between the largest crypto wallets and whale communities.",
     tags: [
       {
         name: "react",
