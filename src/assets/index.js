@@ -20,6 +20,7 @@ import mmlogo from "./mmlogo.png";
 import makenna from "./makenna.jpg";
 import hera from "./hera.png";
 import cleo from "./cleo.png";
+import kleightonnai from "./kleightonnai.png";
 import whaletrail from "./whaletrail.png";
 import codingdojo from "./codingdojo.png";
 import sxt from "./sxt.png";
@@ -33,6 +34,7 @@ export {
   view,
   sxt,
   hera,
+  kleightonnai,
   makenna,
   mobile,
   web,

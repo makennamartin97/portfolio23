@@ -11,6 +11,7 @@ import {
   hera,
   whaletrail,
   cleo,
+  kleightonnai,
   codingdojo,
   sxt,
   igb,
@@ -172,7 +173,7 @@ const projects = [
   {
     name: "Hera.",
     description:
-      "Web-based platform for businesses to conveniantly create, customize, and deploy smart contracts on the Ethereum blockchain, eliminating the requirement of coding experience and developers.",
+      "Web-based platform for businesses to conveniently create, customize, and deploy smart contracts on the Ethereum blockchain, eliminating the requirement of coding experience and developers.",
     tags: [
       {
         name: "react",
@@ -190,6 +191,32 @@ const projects = [
     image: hera,
     source_code_link: "https://github.com/Ironglass-Byte",
     deploy_link: "https://heracontract.com",
+  },
+  {
+    name: "KleightonnAI",
+    description:
+      "Artificial Intelligence Chatbot built with OpenAI's GPT-3.5-Turbo Language Model. The application allows users to receive responses to questions they ask in real time by AI technology simulating human responses.",
+    tags: [
+      {
+        name: "next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "axios",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: kleightonnai,
+    source_code_link: "https://github.com/makennamartin97/ai-chatbot",
+    deploy_link: "https://kleightonnai.vercel.app/",
   },
   {
     name: "Cleo Canna Club",
@@ -216,7 +243,7 @@ const projects = [
   {
     name: "Whale Trail",
     description:
-      "Interactive 3D force network graph enabling crypto traders to gain insight and view connections between the largest crypto wallets and whale communities.",
+      "Interactive 3D force network graph enabling crypto traders to gain insight and view connections between the largest crypto wallets and whale communities(individuals or entities who hold large amounts of cryptocurrency and can influence markets with their trades) in order to facilitate informed decision-making.",
     tags: [
       {
         name: "react",
