@@ -32,7 +32,7 @@ const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
-        className={`absolute inset-0 lg:top-[100px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5 justify-center mt-24 md:mt-32 lg:mt-8`}
+        className={`absolute inset-0 lg:top-[100px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5 justify-center mt-32 md:mt-32 lg:mt-8`}
       >
         <div className='flex flex-col items-center'>
           <div className='w-5 h-5 rounded-full bg-[#dfd9ff]' />
@@ -59,9 +59,9 @@ with a particular passion for front end development <br className='sm:block hidd
       
       
 
-      <div className='absolute xs:bottom-10 bottom-8 w-full flex justify-center items-center'>
+      <div className='absolute xs:bottom-10 bottom-8 w-full flex justify-center items-center mb-8'>
         <a href='#about'>
-          <div className='w-[27px] h-[45px] lg:w-[35px] lg:h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+          <div className='w-[27px] h-[45px] lg:w-[35px] lg:h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2 z-50'>
             <motion.div
               animate={{
                 y: [0, 24, 0],
@@ -71,7 +71,7 @@ with a particular passion for front end development <br className='sm:block hidd
                 repeat: Infinity,
                 repeatType: "loop",
               }}
-              className='w-3 h-3 rounded-full bg-secondary mb-1'
+              className='w-3 h-3 rounded-full bg-secondary'
             />
           </div>
         </a>

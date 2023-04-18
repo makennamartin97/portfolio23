@@ -19,7 +19,7 @@ const ServiceCard = ({ index, title, icon, link}) => (
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary rounded-[20px] p-5 h-[170px] h-[125px] sm:h-[150px] md:h-[140px] lg:min-h-[200px] flex justify-evenly items-center flex-col'
+        className='bg-tertiary rounded-[20px] p-5 h-[125px] sm:h-[150px] md:h-[140px] lg:min-h-[200px] flex justify-evenly items-center flex-col'
       >
         <img
           src={icon}
@@ -27,7 +27,7 @@ const ServiceCard = ({ index, title, icon, link}) => (
           className='w-16 h-16 object-contain'
         />
 
-        <h3 className='text-white text-[12px] md:text-[16px] lg:text-[18px] text-center'>
+        <h3 className='text-white text-[12px] md:text-[16px] lg:text-[18px] text-center mt-1'>
           {title}
         </h3>
       </div>
