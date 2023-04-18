@@ -6,7 +6,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { makenna } from "../assets";
 const Hero = () => {
   const ServiceCard = ({ index, title, icon }) => (
-    <Tilt className='w-[160px]  md:w-[230px] lg:w-[220px] rounded-[20px]'>
+    <Tilt className='w-[180px]  md:w-[230px] lg:w-[220px] rounded-[20px]'>
       <motion.div
         variants={fadeIn("right", "spring", index * 0.5, 0.75)}
         className='green-pink-gradient p-[1px] rounded-[20px] shadow-card'
@@ -17,7 +17,7 @@ const Hero = () => {
             scale: 1,
             speed: 450,
           }}
-          className='bg-tertiary rounded-[20px] min-h-[160px] md:min-h-[230px] lg:min-h-[220px] flex justify-evenly items-center flex-col'
+          className='bg-tertiary rounded-[20px] min-h-[180px] md:min-h-[230px] lg:min-h-[220px] flex justify-evenly items-center flex-col'
         >
           <img
             src={makenna}
@@ -56,14 +56,8 @@ with a particular passion for front end development <br className='sm:block hidd
       </div>
       <div className="flex flex-row w-full justify-center absolute top-[330px] sm:top-[350px] lg:top-[420px]">
           <ServiceCard />
-          </div>
-      
-
-      <StarsCanvas />
-      
-      
-
-      <div className='absolute xs:bottom-10 bottom-8 w-full flex justify-center items-center mb-4 lg:mb-4'>
+      </div>
+      <div className='absolute bottom-8 w-full flex justify-center items-center mb-12 lg:mb-4'>
         <a href='#about'>
           <div className='w-[27px] h-[45px] lg:w-[35px] lg:h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2 z-50'>
             <motion.div
@@ -81,6 +75,12 @@ with a particular passion for front end development <br className='sm:block hidd
           </div>
         </a>
       </div>
+      
+
+      <StarsCanvas />
+      
+      
+
     </section>
   );
 };
