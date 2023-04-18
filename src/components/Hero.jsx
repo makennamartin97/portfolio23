@@ -57,7 +57,7 @@ with a particular passion for front end development <br className='sm:block hidd
       <div className="flex flex-row w-full justify-center absolute top-[330px] sm:top-[350px] lg:top-[420px]">
           <ServiceCard />
       </div>
-      <div className='absolute bottom-8 w-full flex justify-center items-center mb-12 lg:mb-4'>
+      <div className='absolute bottom-8 w-full flex justify-center items-center mb-20 lg:mb-4'>
         <a href='#about'>
           <div className='w-[27px] h-[45px] lg:w-[35px] lg:h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2 z-50'>
             <motion.div
