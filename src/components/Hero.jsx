@@ -6,10 +6,10 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { makenna } from "../assets";
 const Hero = () => {
   const ServiceCard = ({ index, title, icon }) => (
-    <Tilt className='w-[160px]  md:w-[230px] lg:w-[220px] w-full rounded-[20px]'>
+    <Tilt className='w-[160px]  md:w-[230px] lg:w-[220px] rounded-[20px]'>
       <motion.div
         variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-        className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+        className='green-pink-gradient p-[1px] rounded-[20px] shadow-card'
       >
         <div
           options={{
