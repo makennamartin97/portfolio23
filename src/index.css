@@ -34,12 +34,12 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 200px;
   pointer-events: none;
 }
 
 #load{
-  height:100vh;
+  height:100vh!important;
   width:100vw;
   display:flex;
   justify-content: center;
