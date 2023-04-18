@@ -23,8 +23,8 @@ module.exports = {
         xs: "450px",
         sm: '540px',
         md: '720px',
-        lg: '920px',
-        xl: '1040px'
+        lg: '1024px',
+        xl: '1280px'
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/bg2.jpg')",
