@@ -15,23 +15,17 @@ const App = () => {
       {isLoading===true?
       <Loading/>:
       <div className='relative z-100 bg-primary'>
-      
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center bg-o'>
           <Navbar />
           <Hero />
           <Tech />
-          
         </div>
         <About />
         <Experience />
         <Projects />
-        
         <div className='relative z-0 bg-hero-pattern bg-cover bg-no-repeat bg-top bg-o flex flex-col py-6 justify-center'>
           <Contact />
-          {/* <StarsCanvas /> */}
         </div>
-
-
       </div>
 }
     </BrowserRouter>
